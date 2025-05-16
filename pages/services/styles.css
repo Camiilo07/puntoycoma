@@ -85,6 +85,8 @@ a:hover {
     justify-content: center;
     background: rgb(166, 189, 223);
     width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     gap: 1rem;
     flex-wrap: wrap;
 }
@@ -94,7 +96,7 @@ a:hover {
     border: 0.250rem solid rgb(0, 105, 211);
     box-shadow: 0 0.7rem 0.2rem rgba(0, 0, 0, 0.6);
     width: 30%;
-    min-width: 42rem;
+    min-width: 35rem;
     height: 50rem;
     max-height: 55rem;
     border-radius: 1.5rem;
