@@ -36,7 +36,7 @@
             <div class="media-card">
                 <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Correo" class="icono-contacto">
                 <span>Medio adicional de contacto y más profesional, las consultas por este medio requieren una redacción detallada.</span>
-                <a onclick="copiarYIrAGmail()" class="boton-gmail"><i class="fa-regular fa-envelope"></i><p>Redactar un correo</p></a>
+                <a onclick="copiarYIrAGmail()" class="boton-gmail"><i class="fa-regular fa-envelope"></i><p>Copiar correo e ir a gmail</p></a>
             </div>
 
         </div>
@@ -44,16 +44,17 @@
     </section>
 
     <script>
-        function copiarYIrAGmail() {
-          const correo = "1234565@gmail.com";
-          navigator.clipboard.writeText(correo).then(() => {
-            window.open("https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTJnsnwzBcNBHwrKQTLCqDjVlCDbwMnQLhmMRfbWHDWfRBlqFlblXpKWNgFPHnHCxpwxhg", "_blank");
-          }).catch(err => {
-            
-            console.error("Error al copiar el correo:", err);
-          });
-        }
-      </script>
+  function copiarYIrAGmail() {
+    const correo = "Luen1306@hotmail.com";
+    navigator.clipboard.writeText(correo).then(() => {
+      alert("Acabas de copiar el correo, se te dirigirá a Gmail para redactar un mensaje.");
+      window.open("https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTJnsnwzBcNBHwrKQTLCqDjVlCDbwMnQLhmMRfbWHDWfRBlqFlblXpKWNgFPHnHCxpwxhg", "_blank");
+    }).catch(err => {
+      console.error("Error al copiar el correo:", err);
+    });
+  }
+</script>
+
     
 </body>
 </html>
