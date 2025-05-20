@@ -127,7 +127,7 @@ a:hover {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
 
     a {
         padding: 0.7rem;
@@ -141,7 +141,7 @@ a:hover {
     justify-content: center;
     align-self: center;
     width: 100%;
-    height: 26rem;
+    max-height: 30rem;
 
     img {
         width: 100%;
